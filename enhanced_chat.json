@@ -1,0 +1,345 @@
+{
+    "results": [
+      {
+        "room": {
+          "name": "Product A Support",
+          "id": 12456,
+          "image_url": "https://picsum.photos/id/237/200/300",
+          "created_at": "2024-03-20T10:00:00Z",
+          "status": "active",
+          "participant": [
+            {
+              "id": "admin@mail.com",
+              "name": "Admin",
+              "role": 0,
+              "avatar_url": "https://picsum.photos/id/1/100/100"
+            },
+            {
+              "id": "agent@mail.com",
+              "name": "Agent A",
+              "role": 1,
+              "avatar_url": "https://picsum.photos/id/2/100/100"
+            },
+            {
+              "id": "customer@mail.com",
+              "name": "King Customer",
+              "role": 2,
+              "avatar_url": "https://picsum.photos/id/3/100/100"
+            }
+          ]
+        },
+        "comments": [
+          {
+            "id": 885512,
+            "type": "text",
+            "message": "Selamat malam",
+            "sender": "customer@mail.com",
+            "created_at": "2024-03-20T10:00:00Z"
+          },
+          {
+            "id": 885513,
+            "type": "text",
+            "message": "Malam",
+            "sender": "agent@mail.com",
+            "created_at": "2024-03-20T10:01:00Z"
+          },
+          {
+            "id": 885514,
+            "type": "text",
+            "message": "Ada yang bisa saya bantu?",
+            "sender": "agent@mail.com",
+            "created_at": "2024-03-20T10:01:00Z"
+          },
+          {
+            "id": 885515,
+            "type": "text",
+            "message": "Saya mengalami kebingungan dalam mengakses halaman berikut",
+            "sender": "customer@mail.com",
+            "created_at": "2024-03-20T10:02:00Z"
+          },
+          {
+            "id": 885516,
+            "type": "image",
+            "message": "Halaman Login",
+            "file_url": "https://raw.githubusercontent.com/TristanPratama/MyPorto/master/img/sobatlancer-1.png",
+            "thumbnail_url": "https://raw.githubusercontent.com/TristanPratama/MyPorto/master/img/sobatlancer-1.png",
+            "file_type": "image/jpeg",
+            "file_size": 1024576,
+            "sender": "customer@mail.com",
+            "created_at": "2024-03-20T10:02:00Z"
+          },
+          {
+            "id": 885517,
+            "type": "text",
+            "message": "Anda bisa mengikuti langkah-langkah yang ada pada file berikut",
+            "sender": "agent@mail.com",
+            "created_at": "2024-03-20T10:03:00Z"
+          },
+          {
+            "id": 885518,
+            "type": "document",
+            "message": "Dokumen Tutorial",
+            "file_url": "https://drive.usercontent.google.com/u/0/uc?id=1z2aEf3RuuVNA7o2oD6vHxi5zp5ZvWRJr&export=download",
+            "file_type": "application/pdf",
+            "file_size": 2048576,
+            "sender": "agent@mail.com",
+            "created_at": "2024-03-20T10:03:00Z"
+          },
+          {
+            "id": 885519,
+            "type": "text",
+            "message": "atau Anda dapat melihat video tutorial berikut",
+            "sender": "agent@mail.com",
+            "created_at": "2024-03-20T10:03:00Z"
+          },
+          {
+            "id": 885520,
+            "type": "video",
+            "message": "Video tutorial",
+            "file_url": "https://www.youtube.com/embed/bsaSyJTT2Bk?enablejsapi=1",
+            "file_type": "video/mp4",
+            "file_size": 5242880,
+            "duration": 120,
+            "sender": "agent@mail.com",
+            "created_at": "2024-03-20T10:04:00Z"
+          },
+          {
+            "id": 885521,
+            "type": "text",
+            "message": "Baik Terimakasih banyak sudah berhasil",
+            "sender": "customer@mail.com",
+            "created_at": "2024-03-20T10:02:00Z"
+          },
+          {
+            "id": 885522,
+            "type": "image",
+            "message": "Halaman Dashboard",
+            "file_url": "https://raw.githubusercontent.com/TristanPratama/MyPorto/master/img/sobatlancer-10.png",
+            "thumbnail_url": "https://raw.githubusercontent.com/TristanPratama/MyPorto/master/img/sobatlancer-10.png",
+            "file_type": "image/jpeg",
+            "file_size": 1024576,
+            "sender": "customer@mail.com",
+            "created_at": "2024-03-20T10:02:00Z"
+          }
+        ]
+      },
+      {
+        "room": {
+          "name": "Product B Support",
+          "id": 12457,
+          "image_url": "https://picsum.photos/id/238/200/300",
+          "created_at": "2024-03-20T11:00:00Z",
+          "status": "active",
+          "participant": [
+            {
+              "id": "admin@mail.com",
+              "name": "Admin",
+              "role": 0,
+              "avatar_url": "https://picsum.photos/id/1/100/100"
+            },
+            {
+              "id": "agent_b@mail.com",
+              "name": "Agent B",
+              "role": 1,
+              "avatar_url": "https://picsum.photos/id/4/100/100"
+            },
+            {
+              "id": "customer2@mail.com",
+              "name": "VIP Customer",
+              "role": 2,
+              "avatar_url": "https://picsum.photos/id/5/100/100"
+            }
+          ]
+        },
+        "comments": [
+          {
+            "id": 885517,
+            "type": "text",
+            "message": "Hi, saya butuh bantuan",
+            "sender": "customer2@mail.com",
+            "created_at": "2024-03-20T11:00:00Z"
+          },
+          {
+            "id": 885514,
+            "type": "text",
+            "message": "Ada yang bisa saya bantu?",
+            "sender": "agent_b@mail.com",
+            "created_at": "2024-03-20T11:04:00Z"
+          },
+          {
+            "id": 885515,
+            "type": "text",
+            "message": "Saya ingin mengirimkan bukti pembayaran, karena diaplikasi selalu gagal",
+            "sender": "customer2@mail.com",
+            "created_at": "2024-03-20T11:05:00Z"
+          },
+          {
+            "id": 885516,
+            "type": "text",
+            "message": "Baik, silahkan kirimkan lampiran bukti pembayarannya",
+            "sender": "agent_b@mail.com",
+            "created_at": "2024-03-20T11:06:00Z"
+          }
+        ]
+      },
+      {
+        "room": {
+          "name": "Product C Support",
+          "id": 12458,
+          "image_url": "https://picsum.photos/id/239/200/300",
+          "created_at": "2024-03-20T11:00:00Z",
+          "status": "active",
+          "participant": [
+            {
+              "id": "admin@mail.com",
+              "name": "Admin",
+              "role": 0,
+              "avatar_url": "https://picsum.photos/id/1/100/100"
+            },
+            {
+              "id": "agent_c@mail.com",
+              "name": "Agent B",
+              "role": 1,
+              "avatar_url": "https://picsum.photos/id/4/100/100"
+            },
+            {
+              "id": "customer3@mail.com",
+              "name": "VIP Customer",
+              "role": 2,
+              "avatar_url": "https://picsum.photos/id/5/100/100"
+            }
+          ]
+        },
+        "comments": [
+          {
+            "id": 885517,
+            "type": "text",
+            "message": "Hi, saya butuh bantuan",
+            "sender": "customer3@mail.com",
+            "created_at": "2024-03-20T11:00:00Z"
+          },
+          {
+            "id": 885518,
+            "type": "text",
+            "message": "Ada yang bisa saya bantu?",
+            "sender": "admin@mail.com",
+            "created_at": "2024-03-20T11:04:00Z"
+          }
+        ]
+      },
+      {
+        "room": {
+          "name": "Product D Support",
+          "id": 12459,
+          "image_url": "https://picsum.photos/id/240/200/300",
+          "created_at": "2024-03-20T11:00:00Z",
+          "status": "active",
+          "participant": [
+            {
+              "id": "admin@mail.com",
+              "name": "Admin",
+              "role": 0,
+              "avatar_url": "https://picsum.photos/id/1/100/100"
+            },
+            {
+              "id": "agent_d@mail.com",
+              "name": "Agent B",
+              "role": 1,
+              "avatar_url": "https://picsum.photos/id/4/100/100"
+            },
+            {
+              "id": "customer4@mail.com",
+              "name": "VIP Customer",
+              "role": 2,
+              "avatar_url": "https://picsum.photos/id/5/100/100"
+            }
+          ]
+        },
+        "comments": [
+          {
+            "id": 885517,
+            "type": "text",
+            "message": "Hi, saya butuh bantuan",
+            "sender": "customer4@mail.com",
+            "created_at": "2024-03-20T11:00:00Z"
+          }
+        ]
+      },
+      {
+        "room": {
+          "name": "Product E Support",
+          "id": 12460,
+          "image_url": "https://picsum.photos/id/240/200/300",
+          "created_at": "2024-03-20T11:00:00Z",
+          "status": "active",
+          "participant": [
+            {
+              "id": "admin@mail.com",
+              "name": "Admin",
+              "role": 0,
+              "avatar_url": "https://picsum.photos/id/1/100/100"
+            },
+            {
+              "id": "agent_b@mail.com",
+              "name": "Agent B",
+              "role": 1,
+              "avatar_url": "https://picsum.photos/id/4/100/100"
+            },
+            {
+              "id": "customer2@mail.com",
+              "name": "VIP Customer",
+              "role": 2,
+              "avatar_url": "https://picsum.photos/id/5/100/100"
+            }
+          ]
+        },
+        "comments": [
+          {
+            "id": 885517,
+            "type": "text",
+            "message": "Hi, saya butuh bantuan",
+            "sender": "customer2@mail.com",
+            "created_at": "2024-03-20T11:00:00Z"
+          }
+        ]
+      },
+      {
+        "room": {
+          "name": "Product F Support",
+          "id": 12461,
+          "image_url": "https://picsum.photos/id/241/200/300",
+          "created_at": "2024-03-20T11:00:00Z",
+          "status": "active",
+          "participant": [
+            {
+              "id": "admin@mail.com",
+              "name": "Admin",
+              "role": 0,
+              "avatar_url": "https://picsum.photos/id/1/100/100"
+            },
+            {
+              "id": "agent_b@mail.com",
+              "name": "Agent B",
+              "role": 1,
+              "avatar_url": "https://picsum.photos/id/4/100/100"
+            },
+            {
+              "id": "customer2@mail.com",
+              "name": "VIP Customer",
+              "role": 2,
+              "avatar_url": "https://picsum.photos/id/5/100/100"
+            }
+          ]
+        },
+        "comments": [
+          {
+            "id": 885517,
+            "type": "text",
+            "message": "Hi, saya butuh bantuan",
+            "sender": "customer2@mail.com",
+            "created_at": "2024-03-20T11:00:00Z"
+          }
+        ]
+      }
+    ]
+  }
